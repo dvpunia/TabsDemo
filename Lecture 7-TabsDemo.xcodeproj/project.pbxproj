@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		57F0886129158E7A00980FC0 /* Lecture_7_TabsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0886029158E7A00980FC0 /* Lecture_7_TabsDemoApp.swift */; };
-		57F0886329158E7A00980FC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0886229158E7A00980FC0 /* ContentView.swift */; };
+		57F0886329158E7A00980FC0 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0886229158E7A00980FC0 /* MainContentView.swift */; };
 		57F0886529158E7C00980FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F0886429158E7C00980FC0 /* Assets.xcassets */; };
 		57F0886829158E7C00980FC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F0886729158E7C00980FC0 /* Preview Assets.xcassets */; };
+		57F0887529158F4800980FC0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0886F29158F4700980FC0 /* Data.swift */; };
+		57F0887629158F4800980FC0 /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0887029158F4700980FC0 /* FunFactsView.swift */; };
+		57F0887829158F4800980FC0 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0887229158F4800980FC0 /* FavoritesView.swift */; };
+		57F0887929158F4800980FC0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0887329158F4800980FC0 /* HomeView.swift */; };
+		57F0887A29158F4800980FC0 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0887429158F4800980FC0 /* StoryView.swift */; };
+		57F0887E2915922F00980FC0 /* MoreThan5TabsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0887D2915922F00980FC0 /* MoreThan5TabsContentView.swift */; };
+		57F088802915983E00980FC0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0887F2915983E00980FC0 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57F0885D29158E7A00980FC0 /* Lecture 7-TabsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecture 7-TabsDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F0886029158E7A00980FC0 /* Lecture_7_TabsDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture_7_TabsDemoApp.swift; sourceTree = "<group>"; };
-		57F0886229158E7A00980FC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57F0886229158E7A00980FC0 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
 		57F0886429158E7C00980FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57F0886729158E7C00980FC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57F0886F29158F4700980FC0 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		57F0887029158F4700980FC0 /* FunFactsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
+		57F0887229158F4800980FC0 /* FavoritesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		57F0887329158F4800980FC0 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		57F0887429158F4800980FC0 /* StoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		57F0887D2915922F00980FC0 /* MoreThan5TabsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreThan5TabsContentView.swift; sourceTree = "<group>"; };
+		57F0887F2915983E00980FC0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				57F0886029158E7A00980FC0 /* Lecture_7_TabsDemoApp.swift */,
-				57F0886229158E7A00980FC0 /* ContentView.swift */,
+				57F0886229158E7A00980FC0 /* MainContentView.swift */,
+				57F0887D2915922F00980FC0 /* MoreThan5TabsContentView.swift */,
+				57F0886E29158F1800980FC0 /* Views */,
 				57F0886429158E7C00980FC0 /* Assets.xcassets */,
 				57F0886629158E7C00980FC0 /* Preview Content */,
 			);
@@ -65,6 +81,19 @@
 				57F0886729158E7C00980FC0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57F0886E29158F1800980FC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57F0886F29158F4700980FC0 /* Data.swift */,
+				57F0887229158F4800980FC0 /* FavoritesView.swift */,
+				57F0887029158F4700980FC0 /* FunFactsView.swift */,
+				57F0887329158F4800980FC0 /* HomeView.swift */,
+				57F0887429158F4800980FC0 /* StoryView.swift */,
+				57F0887F2915983E00980FC0 /* SettingsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57F0886329158E7A00980FC0 /* ContentView.swift in Sources */,
+				57F0886329158E7A00980FC0 /* MainContentView.swift in Sources */,
+				57F0887929158F4800980FC0 /* HomeView.swift in Sources */,
+				57F0887829158F4800980FC0 /* FavoritesView.swift in Sources */,
+				57F088802915983E00980FC0 /* SettingsView.swift in Sources */,
+				57F0887529158F4800980FC0 /* Data.swift in Sources */,
+				57F0887E2915922F00980FC0 /* MoreThan5TabsContentView.swift in Sources */,
+				57F0887629158F4800980FC0 /* FunFactsView.swift in Sources */,
+				57F0887A29158F4800980FC0 /* StoryView.swift in Sources */,
 				57F0886129158E7A00980FC0 /* Lecture_7_TabsDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
